@@ -1,19 +1,33 @@
 /* BLOCCO_DEBUG */
 [class*="col-"] {
   /* height: 100px; */
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 /* /BLOCCO_DEBUG */
 
+body{
+  text-align: center;
+  overflow-x: hidden;
+}
 
 header{
   color: white;
 }
 header .title{
   background: #2c3d51;
+  padding: 20px 0;
 }
-header .col-xs-3{
-  text-align: center;
+header .col-xs-6{
+  text-align: left;
+}
+.menu, .triple-menu{
+  text-align: right;
+}
+.inline-block{
+  display: inline-block;
+}
+.triple-menu .inline-block:nth-of-type(2){
+  margin: 0 15px;
 }
 
 .avatar{
@@ -21,9 +35,9 @@ header .col-xs-3{
   padding: 40px 0;
   text-align: center;
 }
-.avatar i{
-  color: blue;
-  font-size: 80px;
+.avatar img{
+  width: 35%;
+  border-radius: 50%;
 }
 .avatar .stella{
   color: white;
@@ -31,4 +45,70 @@ header .col-xs-3{
 }
 .avatar h4{
   margin: 20px 0 0;
+}
+
+.stella{
+  color: blue;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.portfolio{
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.portfolio img{
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 15%;
+}
+
+.about{
+  background: #1cbb9c;
+  border: 0;
+}
+
+.about .stella{
+  color: white;
+  font-size: 40px;
+}
+
+.about p{
+  color: white;
+  text-align: left;
+}
+
+.contact input{
+  color: blue;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  width: 100%;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+}
+.contact .send{
+  margin: 10px 0;
+  padding: 5px;
+  background: #1cbb9c;
+  border-bottom: 0;
+  border-radius: 10%;
+  color: white;
+}
+
+
+@media screen and (max-width: 768px){
+
+  .triple-menu{
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 769px){
+
+  .menu span{
+    display: none;
+  }
+
 }

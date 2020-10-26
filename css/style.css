@@ -37,7 +37,6 @@ header .col-xs-6{
 .avatar{
   background: #19bd9b;
   padding: 40px 0;
-  text-align: center;
 }
 .avatar img{
   height: 200px;
@@ -86,13 +85,14 @@ header .col-xs-6{
 .download{
   width: 15%;
   min-width: 100px;
-  margin: 10px auto;
+  margin: 10px auto 30px;
   padding: 5px;
   background: #1cbb9c;
   border: 1px solid white;
 }
 
 .contact{
+  margin-top: 20px;
   color: #2c3d51;
 }
 .contact input{

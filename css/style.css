@@ -1,6 +1,34 @@
 /* BLOCCO_DEBUG */
 [class*="col-"] {
-  height: 100px;
+  /* height: 100px; */
   border: 1px solid black;
 }
 /* /BLOCCO_DEBUG */
+
+
+header{
+  color: white;
+}
+header .title{
+  background: #2c3d51;
+}
+header .col-xs-3{
+  text-align: center;
+}
+
+.avatar{
+  background: #19bd9b;
+  padding: 40px 0;
+  text-align: center;
+}
+.avatar i{
+  color: blue;
+  font-size: 80px;
+}
+.avatar .stella{
+  color: white;
+  font-size: 40px;
+}
+.avatar h4{
+  margin: 20px 0 0;
+}

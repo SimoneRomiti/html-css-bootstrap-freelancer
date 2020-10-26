@@ -1,0 +1,6 @@
+/* BLOCCO_DEBUG */
+[class*="col-"] {
+  height: 100px;
+  border: 1px solid black;
+}
+/* /BLOCCO_DEBUG */

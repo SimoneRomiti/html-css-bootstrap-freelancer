@@ -45,6 +45,7 @@ a:hover{
 header{
   color: white;
 }
+
 header .row{
   background: #2c3d51;
   height: 80px;
@@ -54,9 +55,11 @@ header a{
   font-weight: bold;
   font-size: 18px;
 }
+
 header .logo{
   text-align: left;
 }
+
 .menu, .triple-menu{
   text-align: right;
 }
@@ -101,6 +104,7 @@ header .logo{
   padding-top: 20px;
   padding-bottom: 40px;
 }
+
 .portfolio img{
   width: 100%;
   padding: 10px 0;
@@ -140,22 +144,69 @@ header .logo{
   margin-top: 20px;
   color: #2c3d51;
 }
+
 .contact input{
   border-top: 0;
   border-left: 0;
   border-right: 0;
-  border-bottom: 1  px solid #2c3d51;
-  color: grey;
+  border-bottom: 1px solid #2c3d51;
   width: 100%;
   padding-bottom: 10px;
   margin-bottom: 5px;
 }
+
+.contact span{
+  color: grey;
+}
+.contact .last-text{
+  margin-top: 15px;
+}
+
+.contact input, .contact textarea{
+  display: block;
+  width: 100%;
+}
+
+.contact textarea{
+  margin-top: 15px;
+  border: 1px solid #2c3d51;
+}
+
 .version-2:hover{
   background: #159a80;
   color: white;
 }
 /* /CONTACT */
 
+footer{
+  color: white;
+}
+.footer_top{
+  background: #2b3c52;
+  padding: 30px 0;
+}
+.footer_top .footer_item{
+  margin: 25px 0;
+}
+.footer_item i{
+  margin-right: 5px;
+  padding: 5px;
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 100%;
+}
+#facebook{
+  padding: 5px 10px;
+}
+#linkedin{
+  padding: 5px 8px;
+}
+
+.footer_bottom{
+  background: #1b2433;
+  padding: 30px 0;
+  font-size: 10px;
+}
 
 @media screen and (max-width: 767px){
 

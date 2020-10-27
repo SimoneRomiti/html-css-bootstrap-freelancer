@@ -45,15 +45,21 @@ a:hover{
 header{
   color: white;
 }
-
-header .row{
+.header_top{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2
+}
+header .row.header_top{
   background: #2c3d51;
   height: 80px;
   line-height: 80px;
 }
 header a{
   font-weight: bold;
-  font-size: 18px;
+  font-size: 16  px;
 }
 
 header .logo{
@@ -76,6 +82,10 @@ header .logo{
 }
 .triple-menu .inline-block:nth-of-type(2){
   margin: 0 15px;
+}
+
+.header_bottom{
+  margin-top: 80px;
 }
 
 .avatar{
@@ -201,6 +211,14 @@ footer{
 }
 #linkedin{
   padding: 5px 8px;
+}
+
+#start-link{
+  color: #19bd9b;
+}
+#start-link:hover{
+  color: #159a80;
+  text-decoration: underline;
 }
 
 .footer_bottom{

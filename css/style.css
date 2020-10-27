@@ -50,16 +50,15 @@ header{
   top: 0;
   left: 0;
   right: 0;
-  z-index: 2
-}
-header .row.header_top{
+  z-index: 2;
   background: #2c3d51;
   height: 80px;
   line-height: 80px;
 }
+
 header a{
   font-weight: bold;
-  font-size: 16  px;
+  font-size: 18px;
 }
 
 header .logo{
@@ -77,6 +76,11 @@ header .logo{
   vertical-align: top;
   margin-top: 20px;
 }
+.my-hamburger:hover{
+  background: #159a80;
+  cursor: pointer;
+}
+
 .inline-block{
   display: inline-block;
 }
@@ -114,13 +118,43 @@ header .logo{
   padding-top: 20px;
   padding-bottom: 40px;
 }
+.image-container{
+  position: relative;
+}
 
 .portfolio img{
   display: block;
   width: 100%;
-  height: 100%;
   margin: 15px 0;
   border-radius: 10px;
+}
+
+.layover{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.layover:hover{
+  background-color: rgba(40, 176, 151, 0.8);
+  cursor: pointer;
+}
+
+.plus{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.plus i{
+  font-size: 50px;
+  color: white;
+  display: none;
+}
+
+.layover:hover i{
+  display: block;
 }
 /* /PORTFOLIO */
 
@@ -229,6 +263,10 @@ footer{
 
 @media screen and (max-width: 767px){
 
+  /* header a{
+    font-size: 16px;
+  } */
+
   .triple-menu{
     display: none;
   }
@@ -243,6 +281,14 @@ footer{
 
   .menu span{
     display: none;
+  }
+
+}
+
+@media screen and (max-width: 404px){
+
+  header a{
+    font-size: 12px;
   }
 
 }

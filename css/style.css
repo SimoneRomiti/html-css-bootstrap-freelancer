@@ -5,6 +5,7 @@
 }
 /* /BLOCCO_DEBUG */
 
+/* FISSE */
 body{
   text-align: center;
   overflow-x: hidden;
@@ -14,18 +15,58 @@ h3{
   font-size: 30px;
 }
 
+hr{
+  display: inline-block;
+  width: 10%;
+  min-width: 80px;
+  border-top: 5px solid white;
+  margin-bottom: 15px;
+}
+
+.stella{
+  color: #2c3d51;
+  font-size: 40px;
+  padding-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: #19bd9b;
+  text-decoration: none;
+}
+/* /FISSE */
+
+/* HEADER */
 header{
   color: white;
 }
-header .title{
+header .row{
   background: #2c3d51;
-  padding: 20px 0;
+  height: 80px;
+  line-height: 80px;
 }
-header .col-xs-6{
+header a{
+  font-weight: bold;
+  font-size: 18px;
+}
+header .logo{
   text-align: left;
 }
 .menu, .triple-menu{
   text-align: right;
+}
+.my-hamburger{
+  padding: 5px 10px;
+  background: #19bd9b;
+  font-size: 30px;
+  border-radius: 10%;
+  vertical-align: top;
+  margin-top: 20px;
 }
 .inline-block{
   display: inline-block;
@@ -49,11 +90,11 @@ header .col-xs-6{
 .avatar h4{
   margin: 20px 0 0;
 }
+/* /HEADER */
 
-.stella{
-  color: #2c3d51;
-  font-size: 40px;
-  padding-bottom: 20px;
+/* PORTFOLIO */
+.portfolio hr, .contact hr{
+  border-top: 5px solid #2c3d51;
 }
 
 .portfolio{
@@ -63,9 +104,11 @@ header .col-xs-6{
 .portfolio img{
   width: 100%;
   padding: 10px 0;
-  border-radius: 15%;
+  border-radius: 20px;
 }
+/* /PORTFOLIO */
 
+/* ABOUT */
 .about{
   background: #1cbb9c;
   color: white;
@@ -90,7 +133,9 @@ header .col-xs-6{
   background: #1cbb9c;
   border: 1px solid white;
 }
+/* /ABOUT */
 
+/* CONTACT */
 .contact{
   margin-top: 20px;
   color: #2c3d51;
@@ -99,7 +144,8 @@ header .col-xs-6{
   border-top: 0;
   border-left: 0;
   border-right: 0;
-  border-bottom: 1px solid lightgrey;
+  border-bottom: 1  px solid #2c3d51;
+  color: grey;
   width: 100%;
   padding-bottom: 10px;
   margin-bottom: 5px;
@@ -117,9 +163,10 @@ header .col-xs-6{
   border-radius: 10%;
   color: white;
 }
+/* /CONTACT */
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
 
   .triple-menu{
     display: none;
@@ -131,7 +178,7 @@ header .col-xs-6{
 
 }
 
-@media screen and (min-width: 769px){
+@media screen and (min-width: 768px){
 
   .menu span{
     display: none;

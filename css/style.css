@@ -125,12 +125,12 @@ header .logo{
   font-size: 18px;
   margin-bottom: 20px;
 }
-.download{
-  width: 15%;
-  min-width: 100px;
+
+.my-btn{
   margin: 10px auto 30px;
-  padding: 5px;
   background: #1cbb9c;
+  color: white;
+  padding: 10px 25px;
   border: 1px solid white;
 }
 /* /ABOUT */
@@ -150,17 +150,8 @@ header .logo{
   padding-bottom: 10px;
   margin-bottom: 5px;
 }
-.contact .send{
-  text-align: left;
-}
-.contact .send input{
-  width: 6vw;
-  min-width: 80px;
-  margin: 10px 0;
-  padding: 5px;
-  background: #1cbb9c;
-  border-bottom: 0;
-  border-radius: 10%;
+.version-2:hover{
+  background: #159a80;
   color: white;
 }
 /* /CONTACT */

@@ -131,6 +131,7 @@ header a{
   left: 0;
   width: 100%;
   height: 100%;
+  border-radius: 10px;
 }
 .layover:hover{
   background-color: rgba(40, 176, 151, 0.8);

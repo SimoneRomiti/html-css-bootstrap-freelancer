@@ -285,10 +285,15 @@ footer{
 
 }
 
-@media screen and (max-width: 404px){
+@media screen and (max-width: 414px){
 
   header a{
-    font-size: 12px;
+    font-size: 11px;
+  }
+
+  .my-hamburger{
+    font-size: 20px;
+    margin-top: 25px;
   }
 
 }

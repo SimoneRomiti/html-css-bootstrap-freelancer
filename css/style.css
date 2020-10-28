@@ -230,18 +230,15 @@ footer{
 .footer_top .footer_item{
   margin: 25px 0;
 }
-.footer_item i{
+.footer_item .social{
+  display: inline-block;
   margin-right: 5px;
-  padding: 5px;
-  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
   border: 1px solid white;
-  border-radius: 100%;
-}
-#facebook{
-  padding: 5px 10px;
-}
-#linkedin{
-  padding: 5px 8px;
+  border-radius: 50%;
+  font-size: 20px;
 }
 
 #start-link{

@@ -8,7 +8,6 @@
 /* FISSE */
 body{
   text-align: center;
-  overflow-x: hidden;
 }
 
 h3{
@@ -61,10 +60,6 @@ header a{
   font-size: 18px;
 }
 
-header .logo{
-  text-align: left;
-}
-
 .menu, .triple-menu{
   text-align: right;
 }
@@ -90,10 +85,11 @@ header .logo{
 
 .header_bottom{
   margin-top: 80px;
+  background: #19bd9b;
 }
 
 .avatar{
-  background: #19bd9b;
+
   padding: 40px 0;
 }
 .avatar img{
@@ -261,11 +257,15 @@ footer{
   font-size: 10px;
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 991px){
 
-  /* header a{
+  header a{
     font-size: 16px;
-  } */
+  }
+
+}
+
+@media screen and (max-width: 767px){
 
   .triple-menu{
     display: none;
